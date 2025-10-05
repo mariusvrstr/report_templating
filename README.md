@@ -11,6 +11,7 @@ Do this once to ensure the correct Python and packages are installed.
 
 # Project Structure
 
+'''text
 ReportAutomation/
 ├── data_source/
 │   ├── ReportData.xlsx
@@ -21,3 +22,4 @@ ReportAutomation/
 │   │       └── sales_chart.png
 ├── MainReport.docx
 ├── action_report.py
+'''
