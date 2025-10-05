@@ -180,3 +180,10 @@ if "StormWater" in excel:
 
 doc_final.save(output_path)
 print(f"✅ Report generated: {output_path}")
+
+try:
+    if intermediate_path.exists():
+        intermediate_path.unlink()  # removes the file
+        print("🧹 Cleaned up intermediate file.")
+except Exception as e:
+    print(f"⚠️ Could not delete intermediate file: {e}")
